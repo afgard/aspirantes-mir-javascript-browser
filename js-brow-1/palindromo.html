@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Palindromo</title>
+  </head>
+  <body>
+    <label for="texto">Escribe algo:</label>
+    <input type="text" id="texto">
+    <button class="btn" onclick="validarPalindromo()">Validar</button>
+    <label for="Texto"></p>Tu resultado</label>
+    <p id="resultado"></p>
+    <script>
+        function validarPalindromo() {
+          const input = document.querySelector('#texto');
+          const resultado = document.querySelector('#resultado');
+  
+          const texto = input.value.toLowerCase().replace(/[^a-z0-9]/g, ''); // Convertimos el texto a minúsculas y eliminamos caracteres no alfanuméricos
+          const textoReverso = texto.split('').reverse().join(''); // Invertimos el texto
+  
+          if (texto === textoReverso) {
+            resultado.textContent = '¡Es un palíndromo!';
+          } else {
+            resultado.textContent = 'No es un palíndromo';
+          }
+        }
+      </script>
+  </body>
+</html>
