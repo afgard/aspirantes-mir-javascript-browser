@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding:  10px 20px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.list{
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc; 
+  margin-top: -30px;
+}
+
+#delete-completed{
+  width: 170px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #29b0b9;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-left: 150px;
+}
+
+form {
+  display: flex;
+  margin: auto;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #29b0b9;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+  background-color: #fff;
+  border-color: #29b0b9;
+}
+
+.is-completed {
+  text-decoration: line-through;
+  color: #29b0b9;
+  text-decoration-thickness: 4px;
+}
+
+#delete-complete {
+  padding: 10px 20px;
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+#task-input{
+  padding: 15px;
+  background-color: #dcdcdc;
+  border: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+#botton-add{
+  width: 70px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ec547c;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+#task-form{
+  background-color: #dcdcdc;
+  padding: 10px 20px;
+}
+
+.list {
+  margin-top: 20px;
+
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.list li button {
+  margin-left: 10px;
+  background-color: #29b0b9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
